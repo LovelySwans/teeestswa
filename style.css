@@ -6,66 +6,81 @@
 }
 
 body {
-    font-family: 'Inter', Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f5f7fa;
-    color: #333;
-    padding: 20px;
+    font-family: 'Cormorant Garamond', serif; /* Елегантний шрифт */
+    background-color: #121212; /* Темний фон */
+    color: #ffd700; /* Золотий текст */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 20px;
 }
 
 /* Контейнер */
 .container {
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px 30px;
+    background: #1e1e1e; /* Темний сірий фон */
+    border: 3px solid #ffd700; /* Золоті рамки */
+    border-radius: 8px;
+    padding: 30px 40px;
     max-width: 600px;
     text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
 
 /* Заголовок */
 h1 {
-    font-size: 2rem;
-    color: #2c3e50;
-    margin-bottom: 15px;
+    font-size: 2.5rem;
+    color: #ffd700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
 /* Список контактів */
 ul {
     list-style: none;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 li {
-    margin: 10px 0;
-    font-size: 1rem;
+    margin: 15px 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 a {
-    color: #3498db;
+    color: #ffd700;
     text-decoration: none;
-    transition: color 0.3s ease;
+    border-bottom: 1px dashed #ffd700;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 a:hover {
-    color: #1abc9c;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 
-/* Кнопки або додаткові елементи */
+/* Декоративні кнопки */
 button {
-    padding: 10px 20px;
-    background: #1abc9c;
-    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #ffd700;
+    color: #121212;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
-    background: #16a085;
+    background: #ffffff;
+    color: #121212;
 }
